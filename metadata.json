@@ -7,7 +7,7 @@
         "Id": "org.scorn.agentpulse",
         "Icon": "notifications",
         "License": "MIT",
-        "Version": "0.1.0",
+        "Version": "0.2.0",
         "Category": "system information"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
