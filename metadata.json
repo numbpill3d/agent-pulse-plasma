@@ -1,0 +1,14 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "scorn" }],
+        "Name": "agent pulse",
+        "Description": "compact local alerts, reminders, and ai-session recovery controls",
+        "Id": "org.scorn.agentpulse",
+        "Icon": "notifications",
+        "License": "MIT",
+        "Version": "0.1.0",
+        "Category": "System Information"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

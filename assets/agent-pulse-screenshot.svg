@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+  <rect width="960" height="620" fill="#20201d"/>
+  <rect x="280" y="72" width="400" height="280" fill="#f0f0df" stroke="#080808" stroke-width="5"/>
+  <g fill="#b4b4a5" opacity=".55">
+    <path d="M292 125h2v2h-2zm36 0h2v2h-2zm72 0h2v2h-2zm108 0h2v2h-2zm72 0h2v2h-2zm72 0h2v2h-2zm-360 42h2v2h-2zm108 0h2v2h-2zm108 0h2v2h-2zm108 0h2v2h-2zm-288 42h2v2h-2zm72 0h2v2h-2zm144 0h2v2h-2zm72 0h2v2h-2zm-360 42h2v2h-2zm144 0h2v2h-2zm144 0h2v2h-2z"/>
+  </g>
+  <line x1="280" y1="122" x2="680" y2="122" stroke="#080808" stroke-width="2"/>
+  <line x1="280" y1="124" x2="680" y2="124" stroke="#b4b4a5"/>
+  <g font-family="monospace" fill="#111111">
+    <text x="294" y="107" font-size="21" font-weight="bold">agent_pulse</text>
+    <text x="630" y="107" font-size="18">03_</text>
+    <text x="294" y="145" font-size="12" fill="#77776e">local signal bus // listening</text>
+    <rect x="294" y="160" width="372" height="46" fill="#f4f4e5" stroke="#d8c56a"/>
+    <text x="304" y="188" font-size="20">!</text>
+    <text x="330" y="181" font-size="12">codex usage reset</text>
+    <text x="330" y="196" font-size="10" fill="#77776e">codex // 09:00z</text>
+    <text x="638" y="187" font-size="14">r</text>
+    <rect x="294" y="212" width="372" height="46" fill="#e7e7d8" stroke="#b4b4a5"/>
+    <text x="304" y="240" font-size="20">*</text>
+    <text x="330" y="233" font-size="12">continue review</text>
+    <text x="330" y="248" font-size="10" fill="#77776e">opencode // boot</text>
+    <text x="638" y="239" font-size="14">r</text>
+    <rect x="294" y="264" width="372" height="46" fill="#f4f4e5" stroke="#b4b4a5"/>
+    <text x="304" y="292" font-size="20">*</text>
+    <text x="330" y="285" font-size="12">sync when online</text>
+    <text x="330" y="300" font-size="10" fill="#77776e">local // wifi</text>
+    <text x="294" y="334" font-size="9" fill="#77776e">click fired row = resume  //  otherwise ack</text>
+  </g>
+  <text x="32" y="570" fill="#77776e" font-family="monospace" font-size="15">agent pulse // local ai signal bus</text>
+</svg>

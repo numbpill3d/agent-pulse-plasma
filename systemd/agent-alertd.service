@@ -1,0 +1,15 @@
+[Unit]
+Description=Agent Pulse local alert and session recovery daemon
+After=graphical-session.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/agent-alertd --daemon
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target
